@@ -13,7 +13,7 @@ struct node {
 struct node* newNode(int item){
     struct node* temp = (struct node*) malloc(sizeof(struct node));
     temp->key = item;  // putting the value of item parameter inside the key field of temp instance of struct node
-    temp-> left = temp->right = NULL;
+    temp->left = temp->right = NULL;
     return temp;
 }
 
